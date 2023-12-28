@@ -1,14 +1,5 @@
-﻿public class Test
+﻿public class Generics
 {
-    public string Name
-    {
-        get; set;
-    }
-}
-
-public class Generics
-{
-
     static public void Add<T>(T a, T b) where T : IConvertible
     {
 
@@ -70,14 +61,8 @@ public class Generics
 
     }
 
-
-
-
     static void Main(string[] args)
-    {
-
-        Test t1 = new Test();
-        Test t2 = new Test();
+    {        
         Generics.Add<string>("ayush", " juyal");
     }
 }
