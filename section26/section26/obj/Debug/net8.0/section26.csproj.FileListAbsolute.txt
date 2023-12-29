@@ -1,0 +1,15 @@
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\bin\Debug\net8.0\section26.exe
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\bin\Debug\net8.0\section26.deps.json
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\bin\Debug\net8.0\section26.runtimeconfig.json
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\bin\Debug\net8.0\section26.dll
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\bin\Debug\net8.0\section26.pdb
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\section26.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\section26.AssemblyInfoInputs.cache
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\section26.AssemblyInfo.cs
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\section26.csproj.CoreCompileInputs.cache
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\section26.sourcelink.json
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\section26.dll
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\refint\section26.dll
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\section26.pdb
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\section26.genruntimeconfig.cache
+C:\Users\ayush\source\repos\C_Sharp_Training\section26\section26\obj\Debug\net8.0\ref\section26.dll
