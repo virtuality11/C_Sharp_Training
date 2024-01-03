@@ -1,10 +1,15 @@
-﻿using System;
-using Task1; 
+﻿using ParsingHtml.Models;
+using ParsingHtml.Services;
 
-public class Program
-{
-    static void Main(string[] args)
+namespace ParsingHtml {
+    public class Program
     {
-        Task1.Task.AddDataToFile(); 
+        static void Main(string[] args)
+        {
+
+            Employee e = new("Ayush", 23, "12344", 23000, "SDE", "SD1");
+            ParseHtml.AddDataToFile(e);
+        }
+
     }
 }

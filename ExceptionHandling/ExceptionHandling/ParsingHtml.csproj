@@ -13,4 +13,12 @@
     <None Remove="NewFolder\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Services\ParseHtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Services\ParseHtml.cs" />
+  </ItemGroup>
+
 </Project>
