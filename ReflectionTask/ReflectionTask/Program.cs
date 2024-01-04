@@ -8,7 +8,9 @@ namespace ReflectionTask {
         {
 
             Employee e = new("Ayush", 23, "12344", 23000, "SDE", "SD1");
-            FileOperationsService.PopulateDataToFile(e);
+            string path = @"C:\Users\ayush\Desktop\htmldata.txt";
+
+            FileOperationsService.PopulateDataToFile(e , path);
         }
 
     }
