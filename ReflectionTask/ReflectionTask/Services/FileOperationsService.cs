@@ -3,18 +3,16 @@ using ReflectionTask.Models;
 
 namespace ReflectionTask.Services
 {
-    public class ReadFile
+    public class FileOperationsService
     {
-
-        public static void AddDataToFile(Employee e)
+        public static void PopulateDataToFile<T> (T classobj) where T : class
         {
             string path = @"C:\Users\ayush\Desktop\htmldata.txt";
 
             string[] data = File.ReadAllLines(path);
 
-            Type t = typeof(Employee);
+            Type t = classobj.GetType();
             PropertyInfo[] props = t.GetProperties();
-
 
             for (int i = 0; i<data.Length; i++)
             {
@@ -33,7 +31,7 @@ namespace ReflectionTask.Services
                 {
                     if (pi.Name == prop)
                     {
-                        data[i] = data[i].Replace("{{" + prop + "}}", pi.GetValue(e).ToString());
+                        data[i] = data[i].Replace("{{" + prop + "}}", pi.GetValue(classobj).ToString());
                         break;
                     }
                 }

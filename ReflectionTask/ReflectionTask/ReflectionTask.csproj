@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Services\ReadFile.cs" />
+    <None Include="Services\FileOperationsService.cs" />
   </ItemGroup>
 
 </Project>

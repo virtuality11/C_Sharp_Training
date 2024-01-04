@@ -8,7 +8,7 @@ namespace ReflectionTask {
         {
 
             Employee e = new("Ayush", 23, "12344", 23000, "SDE", "SD1");
-            ReadFile.AddDataToFile(e);
+            FileOperationsService.PopulateDataToFile(e);
         }
 
     }
