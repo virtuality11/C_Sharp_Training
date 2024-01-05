@@ -1,5 +1,7 @@
 ﻿using System.Reflection;
 using ReflectionTask.Models;
+using ReflectionTask.CustomAttributes; 
+
 namespace ReflectionTask.Services
 {
     public class FileOperationsService
@@ -13,7 +15,7 @@ namespace ReflectionTask.Services
 
             foreach (PropertyInfo pi in props)
             {
-                data = data.Replace("{{" + pi.Name + "}}", pi.GetValue(classobj).ToString());
+                data = data.Replace("{{" + pi.GetCustomAttribute<MapHtmlDataAttribute>().FieldName + "}}", pi.GetValue(classobj).ToString());
             }
 
             File.WriteAllText(path, data);
