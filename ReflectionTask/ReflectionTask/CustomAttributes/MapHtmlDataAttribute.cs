@@ -10,9 +10,11 @@ namespace ReflectionTask.CustomAttributes
         get; set; 
         }
 
+        public MapHtmlDataAttribute() { }
         public MapHtmlDataAttribute(string fieldName)
         {
             FieldName = fieldName;
         }
     }
+
 }
